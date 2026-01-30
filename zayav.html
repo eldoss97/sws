@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Мои заявки</title>
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.json">
+
+  <link rel="stylesheet" href="./app.css">
+  <script defer src="./app.js"></script>
+</head>
+
+<body>
+  <div class="app">
+    <div class="screen">
+      <header class="header">
+        <div class="side">
+          <button class="back" data-back aria-label="Назад">‹</button>
+        </div>
+        <div class="title">Госуслуги</div>
+        <div class="side"></div>
+      </header>
+
+      <div class="seg" role="tablist" aria-label="Разделы">
+        <a class="seg-item" href="./index.html" role="tab" aria-selected="false">Все услуги</a>
+        <div class="seg-item active" role="tab" aria-selected="true">Мои заявки</div>
+      </div>
+
+      <div class="empty">
+        <img src="./free-icon-message-11067076.png" alt="">
+        <div class="t">У вас нет активных заявок</div>
+      </div>
+
+      <div class="action-row">
+        <div class="row" role="button" tabindex="0">
+          <img src="./free-icon-clock-14090215.png" class="icon" alt="">
+          <div class="text">История заявок</div>
+          <div class="chev">›</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="footer" aria-label="Нижняя навигация">
+      <a href="./index.html">
+        <img src="./free-icon-home-1946436.png" alt="">
+        Главная
+      </a>
+      <a href="./home.html">
+        <img src="./free-icon-qr-code-8721150.png" alt="">
+        Kaspi QR
+      </a>
+      <a href="./home.html">
+        <img src="./free-icon-sms-5094489.png" alt="">
+        Сообщения
+      </a>
+      <a class="active" href="./index.html">
+        <img src="./free-icon-open-menu-5392911.png" alt="">
+        Сервисы
+      </a>
+    </nav>
+  </div>
+</body>
+</html>
